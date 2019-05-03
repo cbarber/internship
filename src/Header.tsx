@@ -17,17 +17,11 @@ export class Header extends Component<Props> {
           </Menu.Item>
           <Menu.Item>
             <a
-              href="https://github.com/jannikbuschke/gatsby-antd-docs"
+              href="https://github.com/cbarber/internship-docs"
               target="_blank"
             >
               <Icon type="github" />
               GitHub
-            </a>
-          </Menu.Item>
-          <Menu.Item>
-            <a href="https://twitter.com/jannikbuschke" target="_blank">
-              <Icon type="twitter" />
-              Twitter
             </a>
           </Menu.Item>
         </Menu>

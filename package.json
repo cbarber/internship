@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-antd-docs",
-  "description": "Gatsby Antd Docs Starter",
+  "name": "mojotech-internship-docs",
+  "description": "Mojotech Internship docs",
   "version": "0.1.0",
-  "author": "Jannik Buschke",
+  "author": "Craig Barber",
   "dependencies": {
     "@mdx-js/mdx": "1.0.10",
     "@mdx-js/react": "1.0.6",
@@ -54,6 +54,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jannikbuschke/gatsby-antd-docs"
+    "url": "https://github.com/cbarber/gatsby-antd-docs"
   }
 }

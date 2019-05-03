@@ -15,7 +15,7 @@ const IndexPage = () => {
           fontWeight: 'bold',
         }}
       >
-        Gatsby Ant Design Docs Boilerplate
+        Mojotech Internship documentation
       </p>
       <h2>A gatsby starter to create documentation websites</h2>
       <p>
