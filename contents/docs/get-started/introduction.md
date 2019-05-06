@@ -61,7 +61,35 @@ brew install git
 ```
 
 ## docker
+```sh
+brew cask install docker
+```
+
+* Launch Docker.
+ * Press Command + Space to bring up Spotlight Search and enter Docker to launch Docker.
+ * In the Docker needs privileged access dialog box, click OK.
+ * Enter password and click OK.
+
+ * When Docker is launched in this manner, a Docker whale icon appears in the status menu. As soon as the whale icon appears, the symbolic links for docker, docker-compose, docker-credential-osxkeychain and docker-machine are created in /usr/local/bin.
+ 
+* Test docker
+
+```sh
+docker run hello-world
+```
 
 ## nvm
+```sh
+brew install nvm
+nvm install 
+omf install https://github.com/FabioAntunes/fish-nvm
+omf install https://github.com/edc/bass
+nvm install stable
+nvm alias default stable
+```
 
 ## rvm
+
+```sh
+\curl -L https://get.rvm.io | bash -s stable --autolibs=enable
+```
