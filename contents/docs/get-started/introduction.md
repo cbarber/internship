@@ -10,55 +10,58 @@ parents: ['Get Started']
 
 # Mojotech Internship documentation
 
-Forked from https://github.com/cvluca/gatsby-starter-markdown.
+Wifi: mojotech
+Slack
 
-This starter is boilerplate for (technical) documentation websites optionally accomponied by a blog (you can use it forever you want of course).
+## Brew
 
-# Getting started
-
-```
-npm install gatsby -g
-gatsby new my-docs https://github.com/jannikbuschke/gatsby-antd-docs
-cd my-docs
-npm run start
+Brew is package manager for mac osx. https://brew.sh/
+```sh
+xcode-select --install
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Visit http://localhost:8000.
+## iTerm2
 
-Edit files in `/content/docs` and see live updates.
-
-# Features
-
-- [x] Ant Design
-- [x] Typescript
-- [x] Markdown
-- [x] MDX
-- [x] Syntax highlighting
-
-# Roadmap
-
-- [x] Add typescript
-- [x] Remove Redux
-- [x] General simplifications
-- [x] Add mdx
-- [x] Add syntax highlighting with prismjs
-- [x] Improve Header UI
-- [ ] Fix menu item links not showing active state
-- [ ] Blog feature / second content type
-- [ ] Improved typings
-- [ ] Improved responsiveness
-- [ ] Add Search
-
-# Hosting
-
-In order to host the site the **sites path** needs to be put into gatsby-config.js export object on to the property _pathPrefix_. Then run
-
-```
-npm run build
+Terminal replacement for mac os x. https://www.iterm2.com
+```sh
+brew cask install iterm2
 ```
 
-and copy the content of the public folder to the webspace.
+## Shell
 
-# License
+Bash is a little lackluster and switching to fish/zsh can greatly improve functionality. fish is a pretty easy shell to start with.  https://fishshell.com/
+```sh
+brew install fish
+echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
+chsh - s /usr/local/bin/fish
+```
 
-MIT
+### oh-my-fsh
+```sh
+curl -L https://get.oh-my.fish | fish
+```
+
+### bob-the-fish
+```sh
+omf install bobthefish
+```
+
+## fzf
+
+fzf is a fuzzy file finder with shell integration (CTRL-T, CTRL-R, and ALT-C)
+```sh
+brew install fzf
+/usr/local/opt/fzf/install
+```
+
+## git
+```sh
+brew install git
+```
+
+## docker
+
+## nvm
+
+## rvm
