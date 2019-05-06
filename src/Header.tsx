@@ -17,7 +17,7 @@ export class Header extends Component<Props> {
           </Menu.Item>
           <Menu.Item>
             <a
-              href="https://github.com/cbarber/internship-docs"
+              href="https://github.com/cbarber/internship"
               target="_blank"
             >
               <Icon type="github" />

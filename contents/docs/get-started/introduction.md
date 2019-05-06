@@ -42,7 +42,7 @@ echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh - s /usr/local/bin/fish
 ```
 
-### oh-my-fsh
+### oh-my-fish
 ```sh
 curl -L https://get.oh-my.fish | fish
 ```
@@ -76,7 +76,7 @@ brew cask install docker
  * Enter password and click OK.
 
  * When Docker is launched in this manner, a Docker whale icon appears in the status menu. As soon as the whale icon appears, the symbolic links for docker, docker-compose, docker-credential-osxkeychain and docker-machine are created in /usr/local/bin.
- 
+
 * Test docker
 
 ```sh
@@ -86,7 +86,21 @@ docker run hello-world
 ## nvm
 ```sh
 brew install nvm
-nvm install 
+```
+Follow the instructions on the brew *Caveats* section (might change over time):
+
+Create the nvm working directory if it does not exist:
+```sh
+mkdir ~/.nvm
+```
+Add this to your `~/.bash_profile` or other shell
+configuration file (create the file if it does not exist):
+```sh
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+```
+```sh
+nvm install
 omf install https://github.com/FabioAntunes/fish-nvm
 omf install https://github.com/edc/bass
 nvm install stable
