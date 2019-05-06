@@ -81,6 +81,20 @@ docker run hello-world
 ## nvm
 ```sh
 brew install nvm
+```
+Follow the instructions on the brew *Caveats* section (might change over time):
+
+Create the nvm working directory if it does not exist:
+```sh
+mkdir ~/.nvm
+```
+Add this to your `~/.bash_profile` or other shell
+configuration file (create the file if it does not exist):
+```sh
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+```
+```sh
 nvm install
 omf install https://github.com/FabioAntunes/fish-nvm
 omf install https://github.com/edc/bass
