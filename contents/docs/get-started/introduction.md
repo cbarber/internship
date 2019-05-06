@@ -28,6 +28,11 @@ Terminal replacement for mac os x. https://www.iterm2.com
 brew cask install iterm2
 ```
 
+## Powerline fonts
+
+* Download and install a patched powerline font from: https://github.com/powerline/fonts
+* Select font from iTerm2
+
 ## Shell
 
 Bash is a little lackluster and switching to fish/zsh can greatly improve functionality. fish is a pretty easy shell to start with.  https://fishshell.com/
