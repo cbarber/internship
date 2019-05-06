@@ -46,6 +46,12 @@ curl -L https://get.oh-my.fish | fish
 ```sh
 omf install bobthefish
 ```
+For icons to work you need to install the fonts:
+- Download every .otf font file from [this link](https://github.com/powerline/fonts/tree/master/SourceCodePro)
+
+- Install all of them from your Downloads folder
+
+- Change the default font in iTerm2 to *Source Code Pro for Powerline* in the preferences
 
 ## fzf
 
