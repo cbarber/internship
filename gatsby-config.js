@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Ant-Design Documentation Starter',
+    title: 'Mojotech Internship Documentation',
   },
   plugins: [
     `gatsby-plugin-typescript`,

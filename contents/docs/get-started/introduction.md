@@ -8,7 +8,7 @@ parents: ['Get Started']
   Introduction
 </h1>
 
-# Gatsby Ant-Design Documentation Starter
+# Mojotech Internship documentation
 
 Forked from https://github.com/cvluca/gatsby-starter-markdown.
 
