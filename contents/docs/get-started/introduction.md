@@ -47,6 +47,13 @@ chsh - s /usr/local/bin/fish
 curl -L https://get.oh-my.fish | fish
 ```
 
+Set your default shell to fish in iterm2:
+ * open Preferences
+ * change the command on General tab on your default profile
+ * enter /usr/local/bin/fish for the shell path
+
+Opening iterm2 should not display the fish shell prompt
+
 ### bob-the-fish
 ```sh
 omf install bobthefish
