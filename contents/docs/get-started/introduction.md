@@ -70,7 +70,7 @@ Send your github handle to @craig (Craig Jolicoeur) on slack.
 Set up your ssh key for authentication
 
 ```sh
-sh-keygen -t rsa -b 4096
+ssh-keygen -t rsa -b 4096
 cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 
