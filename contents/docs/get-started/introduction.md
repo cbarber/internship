@@ -65,6 +65,17 @@ brew install fzf
 brew install git
 ```
 
+Send your github handle to @craig (Craig Jolicoeur) on slack.
+
+Set up your ssh key for authentication
+
+```sh
+sh-keygen -t rsa -b 4096
+cat ~/.ssh/id_rsa.pub | pbcopy
+```
+
+pbcopy will copy STDOUT into your clipboard. You can then paste into your account ssh key on github.com.
+
 ## docker
 ```sh
 brew cask install docker
