@@ -52,7 +52,7 @@ Set your default shell to fish in iterm2:
  * change the command on General tab on your default profile
  * enter /usr/local/bin/fish for the shell path
 
-Opening iterm2 should not display the fish shell prompt
+Opening iterm2 should now display the fish shell prompt
 
 ### bob-the-fish
 ```sh
