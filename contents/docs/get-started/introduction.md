@@ -131,7 +131,7 @@ nvm alias default stable
 \curl -L https://get.rvm.io | bash -s stable --autolibs=enable
 ```
 
-## Usefull Chrome Extensions
+## Useful Chrome Extensions
 
 React Dev Tools
 
