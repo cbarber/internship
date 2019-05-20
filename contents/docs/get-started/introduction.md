@@ -130,3 +130,17 @@ nvm alias default stable
 ```sh
 \curl -L https://get.rvm.io | bash -s stable --autolibs=enable
 ```
+
+## Usefull Chrome Extensions
+
+React Dev Tools
+
+Inspect the react components in the browser similiar to the element inspector
+
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+
+Apollo Client Developer Tools
+
+Inspect and run graphql queries
+
+https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en-US
