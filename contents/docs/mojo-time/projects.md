@@ -61,6 +61,8 @@ Opportunities:
 * Working in a mobile environment
 * Improve integration with slack
 
+https://github.com/mojotech/guestbook
+
 ## GuestBook App rewrite (flutter)
 
 This is an exercise in rewriting the guestbook react-native app in dart/flutter which is an up and coming competing technology from google.
