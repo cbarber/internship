@@ -36,6 +36,9 @@ const IndexPage = () => {
         <Button type="primary" >
           <Link to="/docs/get-started/introduction">Get Started</Link>
         </Button>
+        <Button type="secondary" >
+          <Link to="/docs/mojo-time/projects">Projects</Link>
+        </Button>
       </Button.Group>
     </div>
   )
