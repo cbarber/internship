@@ -38,6 +38,24 @@ Opportunities:
 * Develop an API
 * Different client methods (web, cli, slack)
 
+## Standup Hub
+
+Project management tool to share team stand ups.
+
+Technologies: go and react (15)
+
+Opportunities:
+* Adopt an existing projects and address its technical debt
+* Upgrade react 15 to react 16
+* Dog-fooding. Use the tool you're working on for tasks 
+* Design team has mentioned interest
+* Integrations with pivotal tracker, slack, and github
+* Develop an API
+* Different client methods (web, cli, slack)
+
+https://github.com/mojotech/standup-web
+https://github.com/mojotech/standup-api
+
 ## Jacob's costing spreadsheet
 
 Jacob maintains a google spreadsheet once a month to assess the costing of the organization which groups costs into employees, teams, departments, locations, and clients. This process is tedious and likely can be improved with an application.
